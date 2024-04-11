@@ -5,7 +5,7 @@ using UnityEngine;
 public class ExEnemy : MonoBehaviour
 {
     //적이 플레이어에 주는 피해량
-    private int damage = 20;
+    public int damage = 20;
     public ExPlayer targetPlayer;         //타겟 플레이어
 
     //플레이어에게 피해를 줄 때 호출되는 함수
