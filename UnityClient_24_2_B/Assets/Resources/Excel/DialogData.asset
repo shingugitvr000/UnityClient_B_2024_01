@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df257c67f0324445addfcda934af39c, type: 3}
+  m_Name: DialogData
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: dialog
+    list:
+    - index: 1
+      npc: 1
+      gamestate: 1
+      Dialog: "1\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 1\uBC88 \uB300\uD654 "
+      changeState: 0
+    - index: 2
+      npc: 2
+      gamestate: 1
+      Dialog: "1\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 2\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 3
+      npc: 3
+      gamestate: 1
+      Dialog: "1\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 3\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 4
+      npc: 4
+      gamestate: 1
+      Dialog: "1\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 4\uBC88 \uB300\uD654"
+      changeState: 2
+    - index: 5
+      npc: 1
+      gamestate: 2
+      Dialog: "2\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 1\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 6
+      npc: 2
+      gamestate: 2
+      Dialog: "2\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 2\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 7
+      npc: 3
+      gamestate: 2
+      Dialog: "2\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 3\uBC88 \uB300\uD654"
+      changeState: 3
+    - index: 8
+      npc: 4
+      gamestate: 2
+      Dialog: "2\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 4\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 9
+      npc: 1
+      gamestate: 3
+      Dialog: "3\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 1\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 10
+      npc: 2
+      gamestate: 3
+      Dialog: "3\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 2\uBC88 \uB300\uD654"
+      changeState: 4
+    - index: 11
+      npc: 3
+      gamestate: 3
+      Dialog: "3\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 3\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 12
+      npc: 4
+      gamestate: 3
+      Dialog: "3\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 4\uBC88 \uB300\uD654"
+      changeState: 0
+    - index: 0
+      npc: 0
+      gamestate: 0
+      Dialog: 
+      changeState: 0
